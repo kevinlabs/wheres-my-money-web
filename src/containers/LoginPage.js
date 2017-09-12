@@ -70,6 +70,9 @@ const LoginPage = () => {
     btnSpan: {
       marginLeft: 5
     },
+    sitename: {
+      textAlign: 'center'
+    }
   };
 
   return (
@@ -78,6 +81,8 @@ const LoginPage = () => {
         <div style={styles.loginContainer}>
 
           <Paper style={styles.paper}>
+
+            <h2 style={styles.sitename}>{"Where's My Money"}</h2>
 
             <form>
               <TextField
